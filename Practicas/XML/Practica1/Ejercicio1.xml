@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 1
+-->
+
+<Ciudades>
+    <!-- Definición de una ciudad -->
+    <Ciudad>
+        <Nombre>Nueva Delhi</Nombre>
+        <País continente="Ásia">India</País>
+    </Ciudad>
+
+    <!-- Definición de una ciudad -->
+    <Ciudad>
+        <Nombre>Lisboa</Nombre>
+        <País continente="Europa">Portugal</País>
+    </Ciudad>
+
+    <!-- Definición de una ciudad -->
+    <Ciudad>
+        <Nombre>El Cairo</Nombre>
+        <País continente="África">Egipto</País>
+    </Ciudad>
+</Ciudades>

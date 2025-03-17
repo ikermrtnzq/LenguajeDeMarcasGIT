@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 4
+-->
+
+<empleados>
+	<!-- Definición de un empleado -->
+	<empleado>
+		<nombre>Ana</nombre>
+		<apellidos>García</apellidos>
+		<edad>30</edad>
+		<departamento>Ventas</departamento>
+		<cargo>Ejecutivo de ventas</cargo>
+	</empleado>	
+
+	<!-- Definición de un empleado -->
+	<empleado>
+		<nombre>Luis</nombre>
+		<apellidos>Rodríguez</apellidos>
+		<edad>45</edad>
+		<departamento>Finanzas</departamento>
+		<cargo>Analista financiero</cargo>
+	</empleado>
+
+	<!-- Definición de un empleado -->
+	<empleado>
+		<nombre>María</nombre>
+		<apellidos>López</apellidos>
+		<edad>28</edad>
+		<departamento>Marketing</departamento>
+		<cargo>Especialista en redes sociales</cargo>
+	</empleado>
+</empleados>
