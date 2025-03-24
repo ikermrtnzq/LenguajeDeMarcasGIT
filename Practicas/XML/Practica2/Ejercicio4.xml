@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 4
+-->
+
+ <!--Definicion de un modulo-->
+<modulo>
+    <nombre>Lenguajes de Marcas</nombre>
+    <horas_semanales>4</horas_semanales>
+    <caracter>Obligatorio</caracter>
+    <periodo>
+        <inicio>2023-09-15</inicio>
+        <fin>2024-06-22</fin>
+    </periodo>
+    <alumnos>
+        <!--Definicion de un alumno-->
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <dni>51623487V</dni>
+            <telefono>666544566</telefono>
+            <email>anafernandez@gmail.com</email>
+
+            <!--Definicion de una direccion-->
+            <direccion>
+                <calle>C/ Amatista, 14</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <faltas_asistencia>No disponible</faltas_asistencia>
+            <notas>No disponible</notas>
+        </alumno>
+
+        <!--Definicion de un alumno-->
+        <alumno>
+            <nombre>Carlos López Sánchez</nombre>
+            <dni>52369874B</dni>
+            <telefono>666455477</telefono>
+            <email>carloslopez@gmail.com</email>
+
+            <!--Definicion de una direccion-->
+            <direccion>
+                <calle>C/ Ópalo, 15</calle>
+                <codigo_postal>28905</codigo_postal>
+                <ciudad>Getafe</ciudad>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <faltas_asistencia>0</faltas_asistencia>
+            <notas>Apto</notas>
+        </alumno>
+    </alumnos>
+</modulo>

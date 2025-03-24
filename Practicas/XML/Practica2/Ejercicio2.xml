@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 2
+-->
+
+<equipos>
+    <!--Definicion de  un equipo--> 
+    <equipo>
+        <nombre>Atlético de Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador/>
+        <jugadores>
+            <!--Definicion de  un jugador--> 
+            <jugador posicion="portero">
+                <nombre>Jan Oblak</nombre>
+                <nacionalidad>Eslovenia</nacionalidad>
+            </jugador>
+
+            <!--Definicion de  un jugador--> 
+            <jugador posicion="delantero">
+                <nombre>Antoine Griezmann</nombre>
+                <nacionalidad>Francia</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+
+    <!--Definicion de  un equipo--> 
+    <equipo>
+        <nombre>Manchester City</nombre>
+        <ciudad>Mánchester</ciudad>
+        <entrenador/>
+        <jugadores>
+            <!--Definicion de  un jugador--> 
+            <jugador posicion="defensa">
+                <nombre>Ruben Dias</nombre>
+                <nacionalidad>Portugal</nacionalidad>
+            </jugador>
+            
+            <!--Definicion de  un jugador--> 
+            <jugador posicion="medio">
+                <nombre>Kevin De Bruyne</nombre>
+                <nacionalidad>Bélgica</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>
