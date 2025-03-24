@@ -9,7 +9,7 @@ Ejercicio: EJERCICIO 4
 <!--Definicion de un modulo-->
 <modulo>
     <nombre>Lenguajes de Marcas</nombre>
-    <horas_semanales>4</horas_semanales>
+    <horasXsemana>4</horasXsemana>
     <caracter>Obligatorio</caracter>
     <periodo>
         <inicio>2023-09-15</inicio>
@@ -26,11 +26,11 @@ Ejercicio: EJERCICIO 4
             <!--Definicion de una direccion-->
             <direccion>
                 <calle>C/ Amatista, 14</calle>
-                <codigo_postal>28905</codigo_postal>
+                <codigoPostal>28905</codigoPostal>
                 <ciudad>Getafe</ciudad>
                 <provincia>Madrid</provincia>
             </direccion>
-            <faltas_asistencia>No disponible</faltas_asistencia>
+            <faltas>No disponible</faltas>
             <notas>No disponible</notas>
         </alumno>
 
@@ -44,11 +44,11 @@ Ejercicio: EJERCICIO 4
             <!--Definicion de una direccion-->
             <direccion>
                 <calle>C/ Ópalo, 15</calle>
-                <codigo_postal>28905</codigo_postal>
+                <codigoPostal>28905</codigoPostal>
                 <ciudad>Getafe</ciudad>
                 <provincia>Madrid</provincia>
             </direccion>
-            <faltas_asistencia>0</faltas_asistencia>
+            <faltas>0</faltas>
             <notas>Apto</notas>
         </alumno>
     </alumnos>
