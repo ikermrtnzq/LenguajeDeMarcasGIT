@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 2
+-->
+
+<html> 
+    <head>
+        <title>Book Review</title>
+    </head> 
+    <body> 
+    <!--Definicion de una review de un libro-->
+        <div class="bookreview"> 
+            <h1>Introducción a XML</h1> 
+            <table> 
+                <!--Info a cerca del libro-->
+                <tr style="align-content:center;"> 
+                    <th>Author</th> 
+                    <th>Price</th> 
+                    <th>Pages</th> 
+                    <th>Date</th> 
+                </tr> 
+                <tr style="align-content:left;"> 
+                    <td>Simon St. Laurent</td> 
+                    <td>31.98</td> 
+                    <td>352</td> 
+                    <td>1998/01</td> 
+                </tr>
+            </table> 
+        </div> 
+    </body> 
+</html>

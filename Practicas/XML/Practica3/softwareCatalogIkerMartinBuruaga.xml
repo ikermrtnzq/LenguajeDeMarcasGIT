@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 3
+-->
+
+<!--Definicion de un catalogo-->
+<catalogo xmlns:os="http://www.ejemplo.com/os" xmlns:office="http://www.ejemplo.com/office">
+
+    <!--Definicion de software de sistemas operativos-->
+    <os:software>
+        <!--Definicion de un producto-->
+        <os:producto>
+            <os:nombre>Windows 11</os:nombre>
+            <os:version>21H2</os:version>
+            <os:desarrollador>Microsoft</os:desarrollador>
+            <os:url>https://www.microsoft.com/windows</os:url>
+        </os:producto>
+
+        <!--Definicion de un producto-->
+        <os:producto>
+            <os:nombre>Ubuntu 22.04</os:nombre>
+            <os:version>22.04 LTS</os:version>
+            <os:desarrollador>Canonical</os:desarrollador>
+            <os:url>https://ubuntu.com</os:url>
+        </os:producto>
+
+        <!--Definicion de un producto-->
+        <os:producto>
+            <os:nombre>Linux Mint</os:nombre>
+            <os:version>21.1</os:version>
+            <os:desarrollador>Clement Lefebvre y el equipo de Linux Mint</os:desarrollador>
+            <os:url>https://linuxmint.com//</os:url>
+        </os:producto>
+    </os:software>
+
+    <!--Definicion de software de aplicaciones ofimatica-->
+    <office:software>
+
+        <!--Definicion de un producto-->
+        <office:producto>
+            <office:nombre>Microsoft Word</office:nombre>
+            <office:version>2021</office:version>
+            <office:desarrollador>Microsoft</office:desarrollador>
+            <office:url>https://www.microsoft.com/word</office:url>
+        </office:producto>
+
+        <!--Definicion de un producto-->
+        <office:producto>
+            <office:nombre>LibreOffice Writer</office:nombre>
+            <office:version>7.2</office:version>
+            <office:desarrollador>The Document Foundation</office:desarrollador>
+            <office:url>https://www.libreoffice.org</office:url>
+        </office:producto>
+
+        <!--Definicion de un producto-->
+        <office:producto>
+            <office:nombre>Excel</office:nombre>
+            <office:version>2021</office:version>
+            <office:desarrollador>Microsoft</office:desarrollador>
+            <office:url>https://www.microsoft.com/excel</office:url>
+        </office:producto>
+    </office:software>
+</catalogo>
