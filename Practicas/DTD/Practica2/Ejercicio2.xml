@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 2
+-->
+
+<!--Declaracion de DTD interno-->
+<!DOCTYPE Equipos [
+    <!ELEMENT EquiposNBA (equipo+)>
+    <!ELEMENT equipo (nombre, titulos, posicion, quinteto)>
+    <!ATTLIST equipo
+        conferencia CDATA #REQUIRED>
+
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT titulos (#PCDATA)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ELEMENT quinteto (#PCDATA)>
+]>
+
+<!--Declaracion de equipos de la NBA-->
+<EquiposNBA>
+
+    <!--Declaracion de un equipo-->
+    <equipo conferencia="oeste">
+        <nombre>Memphis Grizzlies</nombre>
+        <titulos>0</titulos>
+        <posicion>8</posicion>
+        <quinteto>Ja Morant, Desmond Bane, Dillon Brooks, Jaren Jackson Jr., Steven Adams</quinteto>
+    </equipo>
+
+    <!--Declaracion de un equipo-->    
+    <equipo conferencia="este">
+        <nombre>Orlando Magic</nombre>
+        <titulos>0</titulos>
+        <posicion>10</posicion>
+        <quinteto>Paolo Banchero, Franz Wagner, Wendell Carter Jr., Markelle Fultz, Cole Anthony</quinteto>
+    </equipo>
+
+    <!--Declaracion de un equipo-->
+    <equipo conferencia="oeste">
+        <nombre>Sacramento Kings</nombre>
+        <titulos>0</titulos>
+        <posicion>2</posicion>
+        <quinteto>De'Aaron Fox, Domantas Sabonis, Harrison Barnes, Keegan Murray, Malik Monk</quinteto>
+    </equipo>
+</EquiposNBA>

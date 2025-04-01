@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 1
+-->
+
+<!--Declaracion de DTD interno-->
+<!DOCTYPE factura [
+    <!ELEMENT factura (datos-emisor, datos-cliente, detalle-factura)>
+    <!ATTLIST factura
+        numero CDATA #REQUIRED
+        fecha CDATA #REQUIRED>
+
+    <!ELEMENT datos-emisor (nombre, cif, telefono)>
+    <!ELEMENT datos-cliente (nombre, cif, telefono)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT cif (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+
+    <!ELEMENT detalle-factura (linea+)>
+    <!ATTLIST detalle-factura
+        importe CDATA #REQUIRED>
+
+    <!ELEMENT linea (descripcion, cantidad, pvp, oferta?)>
+    <!ATTLIST linea
+        codigo-articulo ID #REQUIRED
+        tipo (Libro | DVD | Varios) #REQUIRED>
+
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT pvp (#PCDATA)>
+    <!ELEMENT oferta EMPTY>
+]>
+
+
+<factura numero="001234" fecha="2025-04-01">
+
+    <!--Declaracion de los datos del emisor-->
+    <datos-emisor>
+        <nombre>FNAC España S.A.</nombre>
+        <cif>B12345678</cif>
+        <telefono>912345678</telefono>
+    </datos-emisor>
+
+    <!--Declaracion de los datos del cliente-->
+    <datos-cliente>
+        <nombre>Iker Martín Buruaga</nombre>
+        <cif>12345678A</cif>
+        <telefono>600123456</telefono>
+    </datos-cliente>
+
+    <!--Declaracion de los datos de la factura-->
+    <detalle-factura importe="60.00">
+
+        <!--Declaracion de linea de producto de la factura-->
+        <linea codigo-articulo="DISCO001" tipo="CD">
+            <descripcion>Thank U, Next - Ariana Grande</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>15.00</pvp>
+            <oferta/>
+        </linea>
+
+        <!--Declaracion de linea de producto de la factura-->
+        <linea codigo-articulo="DISCO002" tipo="CD">
+            <descripcion>Sweetener - Ariana Grande</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>20.00</pvp>
+        </linea>
+
+        <!--Declaracion de linea de producto de la factura-->
+        <linea codigo-articulo="DISCO003" tipo="CD">
+            <descripcion>Positions - Ariana Grande</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>25.00</pvp>
+        </linea>
+    </detalle-factura>
+</factura>
