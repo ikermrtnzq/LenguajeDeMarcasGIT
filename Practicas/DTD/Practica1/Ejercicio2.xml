@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 1
+-->
+
+<!DOCTYPE Jugadores SYSTEM "jugadores.dtd">
+
+<!--Definicion de unos jugadores-->
+<Jugadores>
+    <!--Definicion de un Jugador-->
+    <Jugador>
+        <Nombre>Dani</Nombre>
+        <Apellidos>Olmo</Apellidos>
+
+        <!--Definicion de un Equipo-->
+        <Equipo>
+            <Ciudad>Leipzig</Ciudad>
+
+            <!--Definicion de un presidente-->
+            <Presidente>
+                <NombrePresidente>Oliver</NombrePresidente>
+                <ApellidosPresidente>Mintzlaff</ApellidosPresidente>
+            </Presidente>
+        </Equipo>
+        <Edad>25</Edad>
+    </Jugador>
+
+    <!--Definicion de un Jugador-->
+    <Jugador>
+        <Nombre>Brais</Nombre>
+        <Apellidos>Méndez</Apellidos>
+
+        <!--Definicion de un Equipo-->
+        <Equipo>
+            <Ciudad>Vigo</Ciudad>
+
+            <!--Definicion de un presidente-->
+            <Presidente>
+                <NombrePresidente>Carlos</NombrePresidente>
+                <ApellidosPresidente>Mouriño</ApellidosPresidente>
+            </Presidente>
+        </Equipo>
+        <Edad>26</Edad>
+    </Jugador>
+
+    <!--Definicion de un Jugador-->
+    <Jugador>
+        <Nombre>Mikel</Nombre>
+        <Apellidos>Oyarzabal</Apellidos>
+
+        <!--Definicion de un Equipo-->
+        <Equipo>
+            <Ciudad>San Sebastián</Ciudad>
+
+            <!--Definicion de un presidente-->
+            <Presidente>
+                <NombrePresidente>Jokin</NombrePresidente>
+                <ApellidosPresidente>Aperribay</ApellidosPresidente>
+            </Presidente>
+        </Equipo>
+        <Edad>26</Edad>
+    </Jugador>
+</Jugadores>

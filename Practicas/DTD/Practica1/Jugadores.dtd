@@ -1,0 +1,11 @@
+<!DOCTYPE Jugadores [
+    <!ELEMENT Jugadores (Jugador+)>
+    <!ELEMENT Jugador (Nombre, Apellidos, Equipo, Edad)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Apellidos (#PCDATA)>
+    <!ELEMENT Equipo (Ciudad, Presidente)>
+    <!ELEMENT Ciudad (#PCDATA)>
+    <!ELEMENT Presidente (NombrePresidente, ApellidosPresidente)>
+    <!ELEMENT NombrePresidente (#PCDATA)>
+    <!ELEMENT ApellidosPresidente (#PCDATA)>
+]>

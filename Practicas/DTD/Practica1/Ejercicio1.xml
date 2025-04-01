@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 1
+-->
+
+<!--DTD INTERNA PARA BIBLIOTECA-->
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, editorial, autor, paginas)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT autor (nombre, apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT paginas (#PCDATA)>
+]>
+
+<!--Definicion de una Biblioteca-->
+<Biblioteca>
+
+    <!--Definicion de un libro-->
+    <libro>
+        <titulo>Los Juegos del Hambre</titulo>
+        <editorial>Editorial Molino</editorial>
+
+        <!--Definicion de un autor--> 
+        <autor>
+            <nombre>Suzanne</nombre>
+            <apellidos>Collins</apellidos>
+        </autor>
+        <paginas>368</paginas>
+    </libro>
+
+    <!--Definicion de un libro-->
+    <libro>
+        <titulo>En Llamas</titulo>
+        <editorial>Editorial Molino</editorial>
+
+        <!--Definicion de un autor-->
+        <autor>
+            <nombre>Suzanne</nombre>
+            <apellidos>Collins</apellidos>
+        </autor>
+        <paginas>400</paginas>
+    </libro>
+
+    <!--Definicion de un libro-->
+    <libro>
+        <titulo>Sinsajo</titulo>
+        <editorial>Editorial Molino</editorial>
+
+        <!--Definicion de un autor-->
+        <autor>
+            <nombre>Suzanne</nombre>
+            <apellidos>Collins</apellidos>
+        </autor>
+        <paginas>480</paginas>
+    </libro>
+</Biblioteca>
