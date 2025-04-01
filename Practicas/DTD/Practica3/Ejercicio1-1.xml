@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 1-1
+-->
+<!DOCTYPE cuento SYSTEM "Cuentos.dtd">
+
+<cuento cod="C01" título="La Cenicienta" género="infantil">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Cenicienta</nombre>
+            <género>F</género>
+            <descripción>Una joven dulce y bondadosa que sueña con una vida mejor.</descripción>
+            <imagen>cenicienta.jpg</imagen>
+        </personaje>
+        <personaje id="p2" tipo="antagonista">
+            <nombre>La Madrastra</nombre>
+            <género>F</género>
+        </personaje>
+        <personaje id="p3" tipo="secundario">
+            <nombre>El Príncipe</nombre>
+            <género>M</género>
+        </personaje>
+        <personaje id="p4" tipo="secundario">
+            <nombre>El Hada Madrina</nombre>
+            <género>F</género>
+        </personaje>
+    </personajes>
+    <trama>Cenicienta asiste a un baile real y pierde su zapato de cristal.</trama>
+    <etiqueta nombre="romance"/>
+    <etiqueta nombre="fantasía"/>
+    <precio moneda="eur">12.50</precio>
+</cuento>

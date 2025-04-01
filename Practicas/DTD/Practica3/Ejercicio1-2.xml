@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 1-2
+-->
+<!DOCTYPE cuento SYSTEM "Cuentos.dtd">
+
+<cuento cod="C02" título="Caperucita Roja" género="infantil">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Caperucita Roja</nombre>
+            <género>F</género>
+            <descripción>Una niña valiente que lleva comida a su abuela.</descripción>
+            <imagen>caperucita.jpg</imagen>
+        </personaje>
+        <personaje id="p2" tipo="antagonista">
+            <nombre>El Lobo</nombre>
+            <género>M</género>
+            <url>https://lobo.com/caperucitaroja</url>
+        </personaje>
+        <personaje id="p3" tipo="secundario">
+            <nombre>La Abuela</nombre>
+            <género>F</género>
+        </personaje>
+        <personaje id="p4" tipo="secundario">
+            <nombre>El Cazador</nombre>
+            <género>M</género>
+        </personaje>
+    </personajes>
+    <trama>Caperucita Roja se enfrenta al lobo en su camino a casa de su abuela.</trama>
+    <etiqueta nombre="aventura"/>
+    <etiqueta nombre="fantasía"/>
+    <precio moneda="eur">9.99</precio>
+</cuento>
