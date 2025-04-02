@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 1-4
+-->
+
+<!--Declaracion de una DTD-->
+<!DOCTYPE flores [
+  <!ELEMENT flores (flor+)>
+  <!ELEMENT flor (#PCDATA)>
+]>
+
+<!--Declaracion de flores-->
+<flores>
+  <!--Declaracion de unas flores-->
+  <flor>Amapola</flor>
+  <flor>Rosa</flor>
+</flores>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 4-1
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE libro [
+    <!ELEMENT libro EMPTY>
+    <!ATTLIST libro autor #CDATA #REQUIRED>
+]>
+
+<!--Declaracion de un libro-->
+<libro autor="Mario Vargas Llosa" />

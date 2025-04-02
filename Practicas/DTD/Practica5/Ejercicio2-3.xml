@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 2-3
+-->
+
+<!--Definicion de una DTD interna-->
+<!DOCTYPE aeropuertos [
+  <!ELEMENT aeropuertos (aeropuerto*)>
+  <!ELEMENT aeropuerto (nombre, cerrado)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT cerrado EMPTY>
+]>
+
+<!--Definicion de aeropuertos-->
+<aeropuertos>
+    <!--Definicion de un aeropuerto-->
+    <aeropuerto>
+        <nombre>Berlin Schönefeld (SFX)</nombre>
+    </aeropuerto>
+
+    <!--Definicion de un aeopuerto-->
+    <aeropuerto>
+        <nombre>Berlin Tempelhof (THF)</nombre>
+        <cerrado />
+    </aeropuerto>
+</aeropuertos>

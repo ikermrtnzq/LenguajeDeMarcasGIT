@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 1-6
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE escritores [
+  <!ELEMENT escritores (escritor+)>
+  <!ELEMENT escritor (nombre, nacimiento)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT nacimiento (#PCDATA)>
+]>
+
+<!--Declaracion de escritores-->
+<escritores>
+
+  <!--Declaracion de un escritor-->
+  <escritor>
+    <nombre>Mario Vargas Llosa</nombre>
+    <nacimiento>28 de marzo de 1936</nacimiento>
+  </escritor>
+
+  <!--Declaracion de un escritor-->
+  <escritor>
+    <nombre>Milan Kundera</nombre>
+    <nacimiento>1 de abril de 1929</nacimiento>
+  </escritor>
+</escritores>

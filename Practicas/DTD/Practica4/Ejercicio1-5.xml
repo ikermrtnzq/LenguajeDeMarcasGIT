@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 1-5
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE animales [
+  <!ELEMENT animales (animal+)>
+  <!ELEMENT animal (#PCDATA)>
+]>
+
+<!--Declaracion de animales-->
+<animales>
+  <!--Declaracion de un animal-->
+  <animal>Perro</animal>
+  <!--Declaracion de un animal-->
+  <animal>Gato</animal>
+</animales>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 2-6
+-->
+
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE paises [
+  <!ELEMENT paises (pais+)>
+  <!ELEMENT pais (nombre, unionEuropea, otan)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT unionEuropea EMPTY>
+  <!ELEMENT otan EMPTY>
+]>
+
+<!--Declaracion de paises-->
+<paises>
+    <!--Declaracion de un pais-->
+    <pais>
+        <nombre>España</nombre>
+        <unionEuropea />
+        <otan />
+    </pais>
+
+    <!--Declaracion de un pais-->
+    <pais>
+        <nombre>Noruega</nombre>
+        <otan />
+    </pais>
+
+    <!--Declaracion de un pais-->
+    <pais>
+        <nombre>Austria</nombre>
+        <unionEuropea />
+    </pais>
+</paises>

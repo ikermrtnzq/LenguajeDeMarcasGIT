@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 3-5
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE futbol [
+    <!ELEMENT futbol (jugador*)>
+    <!ELEMENT jugador EMPTY>
+    <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+    <!ATTLIST jugador codigo ID #REQUIRED>
+]>
+
+<!--Declaracion de futbol-->
+<futbol>
+    <!--Declaracion de jugadores-->
+    <jugador nombre="Alfredo_Di_Stéfano" codigo="1" />
+    <jugador nombre="Edson_Arantes_do_Nascimento" codigo="2" />
+    <jugador nombre="Diego_Armando_Maradona" codigo="3" />
+    <jugador nombre="Johan_Cruyff" codigo="4" />
+</futbol>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 2-7
+-->
+
+
+<!--Declaración de una DTD interna-->
+<!DOCTYPE contabilidad [
+    <!ELEMENT contabilidad (apunte+)>
+    <!ELEMENT apunte ((ingreso | gasto)*, fecha, cantidad, concepto)>
+    <!ELEMENT ingreso EMPTY>
+    <!ELEMENT gasto EMPTY>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT concepto (#PCDATA)>
+]>
+
+<!--Declaracion de contabilidad --> 
+<contabilidad>
+    <!--Declaracion de un apunte --> 
+    <apunte>
+        <ingreso />
+        <fecha>24 de febrero de 2011</fecha>
+        <cantidad>1800,00 </cantidad>
+        <concepto>Salario</concepto>
+    </apunte>
+    
+    <!--Declaracion de un apunte --> 
+    <apunte>
+        <gasto />
+        <fecha>28 de febrero de 2011</fecha>
+        <cantidad>74,25 </cantidad>
+        <concepto>Recibo luz</concepto>
+    </apunte>
+</contabilidad>

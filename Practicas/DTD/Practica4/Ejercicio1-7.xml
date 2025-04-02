@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 1-7
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE musicos [
+  <!ELEMENT musicos (musico*)>
+  <!ELEMENT musico ((nombre | apodo), fechaNacimiento)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apodo (#PCDATA)>
+  <!ELEMENT fechaNacimiento (#PCDATA)>
+]>
+
+<!--Declaracion de musicos-->
+<musicos>
+
+  <!--Declaracion de un musico-->
+  <musico>
+    <nombre>Antonio Vivaldi</nombre>
+    <fechaNacimiento>4 de marzo de 1678</fechaNacimiento>
+  </musico>
+
+  <!--Declaracion de un musico-->
+  <musico>
+    <apodo>El viejo peluca</apodo>
+    <fechaNacimiento>21 de marzo de 1685</fechaNacimiento>
+  </musico>
+</musicos>

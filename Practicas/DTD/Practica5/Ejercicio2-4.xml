@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 2-4
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE vuelos [
+  <!ELEMENT vuelos (vuelo*)>
+  <!ELEMENT vuelo (origen, destino)>
+  <!ELEMENT origen (#PCDATA)>
+  <!ELEMENT destino (#PCDATA)>
+]>
+
+<!--Declaracion de vuelos-->
+<vuelos>
+    <!--Declaracion de un vuelo-->
+    <vuelo>
+        <origen>Valencia (VLC)</origen>
+        <destino>Londres Heathrow (LHR)</destino>
+    </vuelo>
+
+    <!--Declaracion de un vuelo-->
+    <vuelo>
+        <destino>Berlin Schönefeld (SFX)</destino>
+        <origen>París Charles de Gaulle (CDG)</origen>
+    </vuelo>
+</vuelos>

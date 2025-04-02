@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025s
+Ejercicio: EJERCICIO 2-7
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE colores [
+    <!ELEMENT colores (color+)>
+    <!ELEMENT nombreSvg (#PCDATA)>
+    <!ELEMENT codigo (CMYK | rgb)>
+    <!ELEMENT rgb (#PCDATA)>
+    <!ELEMENT cmyk (#PCDATA)>
+]>
+
+<!--Declaracion de colores -->
+<colores>
+    <!--Declaracion de un color -->
+    <color>
+        <nombreSvg>Purple</nombreSvg>
+        
+        <!--Declaracion de un codigo -->
+        <codigo>
+            <rgb>#800080</rgb>
+        </codigo>
+    </color>
+    
+<!--Declaracion de un color -->
+    <color>
+        <nombreSvg>Purple</nombreSvg>
+
+        <!--Declaracion de un codigo -->
+        <codigo>
+            <cmyk>#00FF007F</cmyk>
+        </codigo>
+    </color>
+</colores>

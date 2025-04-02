@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 2-2
+-->
+
+<!--Definicion de una DTD interna-->
+<!DOCTYPE efemerides [
+  <!ELEMENT efemerides (efemeride)>
+  <!ELEMENT efemeride (fecha, hecho)>
+  <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT hecho (#PCDATA)>
+]>
+
+<!--Definicion de efemeride-->
+<efemerides>
+    <!--Definicion de una efemeride-->
+    <efemeride>
+        <fecha>20 de julio de 1969</fecha>
+        <hecho>Llegada del hombre a la Luna</hecho>
+    </efemeride>
+
+    <!--Definicion de una efemeride-->
+    <efemeride>
+        <fecha>12 de octubre de 1492</fecha>
+        <hecho>Llegada de Colón a América</hecho>
+    </efemeride>
+
+    <!--Definicion de una efemeride-->
+    <efemeride>
+        <fecha>6 de abril de 1909</fecha>
+        <hecho>Llegada de Robert Peary al Polo Norte</hecho>
+    </efemeride>
+</efemerides>

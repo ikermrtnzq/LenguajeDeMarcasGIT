@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 3-4
+-->
+
+<!--Declaracion de una DTD interna-->
+    <!DOCTYPE listaCompra [
+    <!ELEMENT listaCompra (item*)>
+    <!ELEMENT item EMPTY>
+    <!ATTLIST item nombre CDATA #REQUIRED>
+    <!ATTLIST item cantidad CDATA #REQUIRED>
+]>
+
+<!--Declaracion de listaCompra-->
+<listaCompra>
+    <!--Declaracion de un item-->
+    <item nombre="pan" cantidad="3 barras de cuarto" />
+</listaCompra>

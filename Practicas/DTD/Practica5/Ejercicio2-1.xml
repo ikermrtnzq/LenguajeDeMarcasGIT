@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/03/2025
+Ejercicio: EJERCICIO 2-1
+-->
+
+<!--Definicion de una DTD interna-->
+<!DOCTYPE favoritos [
+  <!ELEMENT marcadores (marcador)>
+  <!ELEMENT marcador (nombre, uri)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT uri (#PCDATA)>
+]>
+
+<!--Definicion de marcadores-->
+<marcadores>
+    <!--Definicion de un marcador-->
+    <marcador>
+        <nombre>W3C</nombre>
+        <uri>http://www.w3.org/</uri>
+    </marcador>
+
+    <!--Definicion de un marcador-->
+    <marcador>
+        <nombre>Web Hypertext Application Technology Working Group (WHATWG)</nombre>
+        <uri>http://www.whatwg.org/</uri>
+    </marcador>
+</marcadores>

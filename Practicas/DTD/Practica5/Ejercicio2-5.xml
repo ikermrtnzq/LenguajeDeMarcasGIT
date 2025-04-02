@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 2-5
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE reyesEspañoles [
+  <!ELEMENT reyesEspañoles (rey*, reina*)>
+  <!ELEMENT rey (nombre, padre, madre)>
+  <!ELEMENT reina (nombre, padre, madre)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT padre (#PCDATA)>
+  <!ELEMENT madre (#PCDATA)>
+]>
+
+<!--Declaracion de reyesEspañoles-->
+<reyesEspañoles>
+    <!--Declaracion de un rey-->
+    <rey>
+        <nombre>Felipe III</nombre>
+        <padre>Felipe II</padre>
+        <madre>Ana de Austria</madre>
+    </rey>
+
+    <!--Declaracion de una-->
+    <reina>
+        <nombre>Juana la Loca</nombre>
+        <padre>Fernando el Católico</padre>
+        <madre>Isabel la Católica</madre>
+    </reina>
+
+    <!--Declaracion de un rey-->
+    <rey>
+        <nombre>Carlos I</nombre>
+        <padre>Felipe el Hermoso</padre>
+        <madre>Juana la Loca</madre>
+    </rey>
+</reyesEspañoles>

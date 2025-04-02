@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 1-9
+-->
+
+<!--Declaracion de una DTD-->
+<!DOCTYPE sistemaSolar [
+  <!ELEMENT sistemaSolar (cuerpo*)>
+  <!ELEMENT cuerpo (planeta|satelite|asteroide)>
+  <!ELEMENT planeta (#PCDATA)>
+  <!ELEMENT satelite (#PCDATA)>
+  <!ELEMENT asteroide (#PCDATA)>
+]>
+
+<!--Declaracion de SistemaSolar-->
+<sistemaSolar>
+
+  <!--Declaracion de un cuerpo-->
+  <cuerpo>
+    <planeta>Tierra</planeta>
+  </cuerpo>
+  <!--Declaracion de un cuerpo-->
+  <cuerpo>
+    <satelite>Fobos</satelite>
+  </cuerpo>
+  <!--Declaracion de un cuerpo-->
+  <cuerpo>
+    <asteroide>Ceres</asteroide>
+  </cuerpo>
+</sistemaSolar>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 4-5
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE albumesMortadelo [
+    <!ELEMENT albumesMortadelo (album*)>
+    <!ELEMENT album (nombre, fecha)>
+    <!ATTLIST album nombre CDATA #REQUIRED>
+    <!ATTLIST album fecha (1969|1970|1971|1972|1973|1974) #REQUIRED>
+]>
+
+<!--Declaracion de albumesMortadelo-->
+<albumesMortadelo>
+    <!--Declaracion de albumes-->
+    <album nombre="El sulfato atómico" fecha="1969" />
+    <album nombre="La caja de diez cerrojos" fecha="1971" />
+    <album nombre="El otro yo del profesor Bacterio" fecha="1973" />
+    <album nombre="Los cacharros majaretas" fecha="1974" />
+</albumesMortadelo>

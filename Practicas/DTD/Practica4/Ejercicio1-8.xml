@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 02/04/2025
+Ejercicio: EJERCICIO 1-8
+-->
+
+<!--Declaracion de una DTD interna-->
+<!DOCTYPE agenda [
+  <!ELEMENT agenda (contacto*)>
+  <!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT telefonoFijo (#PCDATA)>
+  <!ELEMENT telefonoMovil (#PCDATA)>
+]>
+
+<!--Declaracion de agenda-->
+<agenda>
+  <!--Declaracion de un contacto-->
+  <contacto>
+    <nombre>Ayuntamiento</nombre>
+    <telefonoFijo>010</telefonoFijo>
+    <telefonoMovil>Desconocido</telefonoMovil>
+  </contacto>
+  
+  <!--Declaracion de un contacto-->
+  <contacto>
+    <nombre>Emergencias</nombre>
+    <telefonoFijo>112 (Unión Europea)</telefonoFijo>
+    <telefonoFijo>911 (Estados Unidos)</telefonoFijo>
+    <telefonoMovil>Desconocido</telefonoMovil>
+  </contacto>
+</agenda>
