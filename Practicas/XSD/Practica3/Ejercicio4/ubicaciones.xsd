@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 10/04/2025
+Ejercicio: EJERCICIO 4
+-->
+
+
+<!--Declaración de XSD para ubicaciones-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ubicaciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ubicacion" type="infoUbicacion" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="infoUbicacion">
+    <xs:complexContent>
+      <xs:extension base="direccion">
+        <xs:attribute name="metros" type="xs:integer" use="required"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:simpleType name="direccion">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="norte"/>
+      <xs:enumeration value="sur"/>
+      <xs:enumeration value="este"/>
+      <xs:enumeration value="oeste"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

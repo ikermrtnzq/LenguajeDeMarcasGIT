@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 10/04/2025
+Ejercicio: EJERCICIO 2
+-->
+
+<!--Declaracion de XSD de fichas -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fichas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ficha" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="numero" type="xs:string" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="0[0-9]|1[0-9]"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="letra" type="xs:string" use="optional">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="X"/>
+                  <xs:enumeration value="Y"/>
+                  <xs:enumeration value="Z"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:string">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="0[0-9]|1[0-9]"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

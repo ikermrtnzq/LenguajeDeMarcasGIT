@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/04/2025
+Ejercicio: EJERCICIO 2
+-->
+
+<!--Declaracion de fichas-->
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="fichas.xsd"> 
+    
+    <!--Declaracion de una ficha-->
+    <ficha numero="1"> 
+        <nombre>Ana Sanz Tin</nombre> 
+        <edad>22</edad> 
+    </ficha> 
+
+    <!--Declaracion de una ficha-->
+    <ficha numero="2"> 
+        <nombre>Iker Rubio Mol</nombre> 
+        <edad>23</edad> 
+    </ficha> 
+</fichas> 

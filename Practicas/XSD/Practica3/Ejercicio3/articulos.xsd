@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 10/04/2025
+Ejercicio: EJERCICIO 3
+-->
+
+<!--Declaracion de XSD para articulos-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="articulos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="articulo" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="precio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:decimal">
+                    <xs:attribute name="moneda" type="xs:string" use="required"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

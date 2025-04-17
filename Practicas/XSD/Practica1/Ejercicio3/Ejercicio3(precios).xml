@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/04/2025
+Ejercicio: EJERCICIO 3
+-->
+
+<!--Declaracion de precios-->
+<precios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="precios.xsd"> 
+    
+    <!--Declaracion de un precio-->
+    <precio>8</precio> 
+
+    <!--Declaracion de un precio-->
+    <precio>2.6</precio>
+
+    <!--Declaracion de un precio-->
+    <precio>4.95</precio> 
+
+    <!--Declaracion de un precio-->
+    <precio>187</precio>  
+</precios> 

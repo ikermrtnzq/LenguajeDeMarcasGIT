@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 10/04/2025
+Ejercicio: EJERCICIO 5
+-->
+
+<!--Declaracion de muebles-->
+<muebles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="muebles.xsd"> 
+
+    <!--Declaracion de un mueble-->
+    <mueble color="blanco">mesa</mueble>
+
+    <!--Declaracion de un mueble--> 
+    <mueble color="gris">silla</mueble> 
+</muebles> 

@@ -1,0 +1,15 @@
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 10/04/2025
+Ejercicio: EJERCICIO 4
+-->
+
+<!--Declaracion de un XSD-->
+<xs:element name="letras">
+   <xs:simpleType>
+      <xs:restriction base="xs:string">
+         <xs:pattern value="([A-Z][a-z])+"/>
+      </xs:restriction>
+   </xs:simpleType>
+</xs:element>

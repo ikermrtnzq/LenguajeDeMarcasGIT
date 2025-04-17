@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 10/04/2025
+Ejercicio: EJERCICIO 3
+-->
+
+<!--Declaración de articulos-->
+<articulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="articulos.xsd"> 
+    
+    <!--Declaración de un articulo-->
+    <articulo> 
+        <nombre>Mesa</nombre> 
+        <precio moneda="Euro">50</precio> 
+    </articulo> 
+
+    <!--Declaración de un articulo-->
+    <articulo> 
+        <nombre>Silla</nombre> 
+        <precio moneda="Dólar">78.99</precio> 
+    </articulo> 
+</articulos> 

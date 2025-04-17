@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 10/04/2025
+Ejercicio: EJERCICIO 4
+-->
+
+<!--Declaracion de una heladeria-->
+<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="heladeria.xsd">
+    <!--Declaracion de un helado-->
+    <helado>
+        <fresa />
+        <chocolate />
+    </helado>
+
+    <!--Declaracion de un helado-->
+    <helado>
+        <vainilla />
+        <chocolate />
+    </helado>
+</heladeria>

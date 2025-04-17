@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: IKER MARTIN BURUAGA
+Curso: DAW1
+Fecha: 17/04/2025
+Ejercicio: EJERCICIO 6
+-->
+
+<!--Declaracion del XSD de fichas y tipoIniciales-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Declaracion del tipo simple reutilizable -->
+  <xs:simpleType name="tipoIniciales">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z][a-zA-Z][a-zA-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Declaracion del elemento raíz -->
+  <xs:element name="fichas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ficha" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="iniciales" type="tipoIniciales"/>
+              <xs:element name="edad" type="xs:integer"/>
+              <xs:element name="iniciales-al-reves" type="tipoIniciales"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
